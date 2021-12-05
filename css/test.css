@@ -10,16 +10,14 @@ body {
     font-size: 20px;
 }
 .logo {
-    background-color: rebeccapurple;
+    background: rebeccapurple;
     color: lightgreen;
     margin-right: 50px;
     font-weight: 700;
     padding: 5px 15px;
     text-decoration: none;
 }
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -28,6 +26,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    text-decoration: none;
 }
 ul > li {
     margin-right: 30px;
@@ -35,12 +34,6 @@ ul > li {
 ul > li:last-child {
     margin-right: 0;
 } 
-a {
-    font-weight: 700;
-    text-decoration: none;
-    background-color: rebeccapurple;
-    color: white;
-}
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -48,7 +41,7 @@ a {
     border-bottom: 1px solid #000;
 }
 .aside {
-   background: lavender;
+   background-color:  lavender;
    padding: 10px 20px;
 }
 section {
@@ -56,18 +49,21 @@ section {
    padding: 10px 20px;
    margin-bottom: 20px;
 }
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
 .link {
-    background-color:  rebeccapurple;
     color: white;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 10px;
+    background-color: rebeccapurple;
+    padding: 8px 15px;
+    margin-left: 8px;
+}
 .post {
     padding-bottom: 13px;
 }
 .footer {
     font-size: 13px;
-    padding-left: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
