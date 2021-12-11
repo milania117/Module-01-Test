@@ -52,6 +52,8 @@ section {
 a {
     font-weight: 700;
     text-decoration: none;
+    color: white;
+    background-color: rebeccapurple;
 }
 .link {
     color: white;
